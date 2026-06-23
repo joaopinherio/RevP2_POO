@@ -1,4 +1,4 @@
-public abstract class Jogador {
+public abstract class Jogador implements Imposto{
     private String nome;
     private double salario;
 
