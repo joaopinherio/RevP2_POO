@@ -24,6 +24,7 @@ public class JogadorFutebol extends Jogador{
         if(origem == Origem.INTERNACIONAL){
             return salario * 0.25;
         }
-        
+        return 0;
+
     }
 }
